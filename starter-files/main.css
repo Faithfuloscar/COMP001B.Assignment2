@@ -30,11 +30,13 @@ h3 {
 }
 
 p {
-
+	
 }
 
 .album-art {
-
+	border-style: solid;	
+	border-color: rgb(212, 0, 0);
+	padding: 25px;
 }
 
 .clear {
@@ -42,20 +44,28 @@ p {
 }
 
 .image-electronics, .image-stage-effects {
-	
+	border-style: solid;	
+	border-color: rgb(212, 0, 0);
+	padding: 20px;
 }
 
 .record-label {
+	color: rgb(212, 0, 0);
 
 }
 
 .track-list {
-
+	text-align: left;
 }
 
 #about-photo {
  border-style: solid;
  border-color: rgb(212, 0, 0);
+ margin-right: 20px;
+ width: auto;
+ height: auto;
+ padding: 10px 20px;
+
 }
 
 #copyright {
@@ -71,8 +81,8 @@ p {
 
 #text-intro {
 	border-style: solid;
-	background-color: gray;
+	background-color: rgb(73, 73, 73);
 	border-color: red;
 	color: red;
-	padding-left: 10px;
+	padding: 20px;
 }
